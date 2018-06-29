@@ -12,9 +12,9 @@
 		0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572C91720C2B39400B79406 /* TotalMapViewController.swift */; };
 		058F274720BEE6CC00271381 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F274620BEE6CC00271381 /* MapViewController.swift */; };
 		058F274A20BEE70300271381 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058F274920BEE70300271381 /* MapKit.framework */; };
-		24187AE420E5FEAB00F7780F /* 늘해랑1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AE320E5FEAB00F7780F /* 늘해랑1.jpeg */; };
-		24187AE620E5FEAF00F7780F /* 늘해랑2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AE520E5FEAF00F7780F /* 늘해랑2.jpeg */; };
-		24187AE820E5FEB300F7780F /* 늘해랑3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AE720E5FEB300F7780F /* 늘해랑3.jpeg */; };
+		24187AEA20E6020700F7780F /* 늘해랑1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AE920E6020700F7780F /* 늘해랑1.jpeg */; };
+		24187AEC20E6020D00F7780F /* 늘해랑2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AEB20E6020D00F7780F /* 늘해랑2.jpeg */; };
+		24187AEE20E6021100F7780F /* 늘해랑3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24187AED20E6021100F7780F /* 늘해랑3.jpeg */; };
 		641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A0F0420BBDA36004ECC5A /* DetailViewController.swift */; };
 		648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */; };
 		741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17E420AC061400FE6E1E /* AppDelegate.swift */; };
@@ -30,9 +30,9 @@
 		0572C91720C2B39400B79406 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
 		058F274620BEE6CC00271381 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		058F274920BEE70300271381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		24187AE320E5FEAB00F7780F /* 늘해랑1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑1.jpeg"; path = "../../../늘해랑1.jpeg"; sourceTree = "<group>"; };
-		24187AE520E5FEAF00F7780F /* 늘해랑2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑2.jpeg"; path = "../../../늘해랑2.jpeg"; sourceTree = "<group>"; };
-		24187AE720E5FEB300F7780F /* 늘해랑3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑3.jpeg"; path = "../../../늘해랑3.jpeg"; sourceTree = "<group>"; };
+		24187AE920E6020700F7780F /* 늘해랑1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑1.jpeg"; path = "../../../../Desktop/늘해랑1.jpeg"; sourceTree = "<group>"; };
+		24187AEB20E6020D00F7780F /* 늘해랑2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑2.jpeg"; path = "../../../../Desktop/늘해랑2.jpeg"; sourceTree = "<group>"; };
+		24187AED20E6021100F7780F /* 늘해랑3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "늘해랑3.jpeg"; path = "../../../../Desktop/늘해랑3.jpeg"; sourceTree = "<group>"; };
 		641A0F0420BBDA36004ECC5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
 		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UiTableViewController Test 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +84,9 @@
 		05BEBCF420CEB1C1007033AD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				24187AE520E5FEAF00F7780F /* 늘해랑2.jpeg */,
-				24187AE320E5FEAB00F7780F /* 늘해랑1.jpeg */,
-				24187AE720E5FEB300F7780F /* 늘해랑3.jpeg */,
+				24187AED20E6021100F7780F /* 늘해랑3.jpeg */,
+				24187AEB20E6020D00F7780F /* 늘해랑2.jpeg */,
+				24187AE920E6020700F7780F /* 늘해랑1.jpeg */,
 				0572C91720C2B39400B79406 /* TotalMapViewController.swift */,
 				058F274620BEE6CC00271381 /* MapViewController.swift */,
 				741C17F620AC06C400FE6E1E /* MyTableViewController.swift */,
@@ -195,11 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				741C17EF20AC061400FE6E1E /* LaunchScreen.storyboard in Resources */,
-				24187AE420E5FEAB00F7780F /* 늘해랑1.jpeg in Resources */,
+				24187AEA20E6020700F7780F /* 늘해랑1.jpeg in Resources */,
 				741C17EC20AC061400FE6E1E /* Assets.xcassets in Resources */,
-				24187AE620E5FEAF00F7780F /* 늘해랑2.jpeg in Resources */,
+				24187AEC20E6020D00F7780F /* 늘해랑2.jpeg in Resources */,
 				741C17EA20AC061400FE6E1E /* Main.storyboard in Resources */,
-				24187AE820E5FEB300F7780F /* 늘해랑3.jpeg in Resources */,
+				24187AEE20E6021100F7780F /* 늘해랑3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

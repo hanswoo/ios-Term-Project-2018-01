@@ -75,10 +75,13 @@ class MyTableViewController: UITableViewController,  UISearchBarDelegate{
         optionMenu.addAction(checkinAction)
         present(optionMenu, animated: true)
     }
-    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
     // MARK: - Navigation
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "showDetail" {
@@ -113,4 +116,5 @@ class MyTableViewController: UITableViewController,  UISearchBarDelegate{
                 //destinationController.type = foodStoreType
         }
     }
+}
 }
